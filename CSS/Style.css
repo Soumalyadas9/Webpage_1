@@ -1,0 +1,80 @@
+body{
+	 margin:0;
+	 padding:0;
+	 background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Image.jpg);
+	 height: 100vh;
+	 text-align:center;
+	 background-size: cover;
+	 background-position: center;
+	 font-family:sans-serif;
+ }
+ .logo1 img{
+	 float:left;
+	 width:400px;
+	 height:auto;
+ }
+ .main{
+	 max-width:1200px;
+	 margin:auto;
+ }
+ .logo2 img{
+    position: absolute;
+	bottom: 70px; 
+	left: 190px; 
+	width:200px;
+	height:auto;
+ }
+ .title{
+	 position:absolute;
+	 bottom: 200px; 
+	 right: 150px; 
+	 width:350px;
+ }
+ .title h1{
+	 font-family:monospace;
+	 color:#5499C7 ;
+	 font-size:40px;
+	 text-shadow: #665100 1px 0 10px;
+ }
+  .title h2{
+	 font-family:monospace;
+	 color:#5499C7 ;
+	 font-size:25px;
+	 text-shadow: #665100 1px 0 10px;
+ }
+  .title h3{
+	 font-family:monospace;
+	 color:#5499C7 ;
+	 font-size:40px;
+	 text-shadow: #665100 1px 0 10px;
+ }
+ 
+ form{
+	 margin-top:50px;
+	 transition: all 4s ease-in-out;
+ }
+ 
+ .form-control{
+	 width:600px;
+	 background:transparent;
+	 border:none;
+	 outline:none;
+	 border-bottom:1px solid gray;
+	 color:#fff;
+	 font-size:18px;
+	 margin-bottom:16px;
+ }
+ 
+ input{
+	 height:45px;
+ }
+ form.submit{
+	 background:#ff5722;
+	 border-color:trasparent;
+	 color:#fff;
+	 font-weight:bold;
+	 letter-spacing:2px;
+	 height:50px;
+	 margin-top:20px;
+ }
+ 
